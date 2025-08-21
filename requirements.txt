@@ -1,0 +1,10 @@
+# Core app
+streamlit>=1.34.0
+numpy>=1.24.0
+soundfile>=0.12.1
+
+# Bark (text-to-audio) and deps
+bark>=0.0.1a0
+transformers>=4.40.0
+tokenizers>=0.15.2
+torch  # install the correct build for your platform (CPU/GPU)
